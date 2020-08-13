@@ -1,0 +1,130 @@
+body{
+    border: 2px solid rgb(32, 65, 155);
+    width: 100%;
+    height: 100%;
+    
+
+}
+.logo{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: rgb(32, 65, 155);
+    font-weight: bold;
+
+}
+h1{
+    color: rgb(32, 65, 155);
+}
+h2{
+    position: relative;
+    left: 400px;
+}
+h3{
+    position: relative;
+    left: 600px;
+}
+.nav-bar{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    font-family: Arial;
+    background-color: rgb(32, 65, 155);
+  
+  }
+  
+  ul{
+    list-style: none;
+    float: left;
+    display: flex;
+    align-content: space-around;
+  
+  }
+  ul li a{
+    line-height: 80px;
+    color:  white;
+    padding: 12px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    align-content: space-between;
+  }
+  ul li a:hover{
+    background: rgba(0,0,0,0.4);
+    border-radius: 6px;
+  }
+  
+  ul li a:active{
+    background: rgb(199, 145, 145);
+    color: #fff;
+    border-radius: 6px;
+  }
+  .picture{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 20px;
+    width: 100%;
+    margin-top: 100px;
+
+  }
+  .picture1{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 20px;
+    width: 100%;
+    margin-top: 100px;
+  }
+  .picture2{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 20px;
+    width: 100%;
+    margin-top: 100px;
+  }
+  .footer{
+    background-color: rgb(73, 75, 82);
+    font-size: 24px;
+    text-align: center;
+  }
+  @media only screen and (max-width:800px) {
+    /* For tablets: */
+    .nav-bar {
+      width: 80%;
+      padding: 0;
+    }
+    body {
+      width: 100%;
+    }
+    .logo {
+      width: 100%;
+    }
+    h1{
+      width: 100%;
+    }
+    h2{
+      width: 100%;
+    }
+    h3{
+      width: 100%;
+    }
+    .text{
+      width: 100%;
+    }
+    .picture{
+      width: 100%;
+    }
+    .picture1, .picture2, .footer {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    body, .logo, h1, h2, h3, .text, .picture, .picture1, .picture2, .footer {
+      width: 100%;
+    }
+  }

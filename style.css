@@ -1,0 +1,159 @@
+body{
+    border: 2px solid rgb(32, 65, 155);
+    width: 100%;
+    height: 100%;
+    
+
+}
+.logo{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: rgb(32, 65, 155);
+    font-weight: bold;
+    width: 100%;
+}
+h1{
+    color: rgb(32, 65, 155);
+    width: 100%;
+
+}
+h2{
+    position: relative;
+    left: 100px;
+    width: 100%;
+
+}
+h3{
+    position: relative;
+    left: 200px;
+    width: 100%;
+
+}
+.nav-bar{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    font-family: Arial;
+    background-color: rgb(32, 65, 155);
+    width: 100%;
+
+  }
+  
+  ul{
+    list-style: none;
+    float: left;
+    display: flex;
+    align-content: space-around;
+  
+  }
+  ul li a{
+    line-height: 80px;
+    color:  white;
+    padding: 12px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    align-content: space-between;
+  }
+  ul li a:hover{
+    background: rgba(0,0,0,0.4);
+    border-radius: 6px;
+  }
+  
+  ul li a:active{
+    background: rgb(199, 145, 145);
+    color: #fff;
+    border-radius: 6px;
+  }
+  .text{
+    position: relative;
+    width: 100%;
+
+
+  }
+  .picture{
+    position: relative;
+    top: 100px;
+    width: 100%;
+
+  }
+  
+  .vision{
+      position: relative;
+      top: 100px;
+      font-size: 24px;
+      padding: 20px;
+      width: 100%;
+
+  }
+  .mission{
+      position: relative;
+      bottom: 780px;
+      left: 800px;
+      font-size: 24px;
+      width: 100%;
+
+
+  }
+  .warning{
+      background-color: rgb(32, 65, 155);
+      font-size: 24px;
+      text-align: center;
+      color: cornsilk;
+      width: 100%;
+
+
+  }
+  .footer{
+    background-color: rgb(73, 75, 82);
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+
+  }
+  @media only screen and (max-width:800px) {
+    /* For tablets: */
+    .nav-bar {
+      width: 80%;
+      padding: 0;
+    }
+    ul{
+      width: 100px;
+    }
+    ul li a{
+      width: 100%;
+    }
+    body {
+      width: 100%;
+    }
+    .logo {
+      width: 100%;
+    }
+    h1{
+      width: 100%;
+    }
+    h2{
+      width: 100%;
+    }
+    h3{
+      width: 100%;
+    }
+    .text{
+      width: 100%;
+    }
+    .picture{
+      width: 100%;
+    }
+    .vision, .mission, .warning, .footer {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    body, .logo, h1, h2, h3, .text, .picture, .vision, .mission, .warning, .footer {
+      width: 100%;
+    }
+  }
